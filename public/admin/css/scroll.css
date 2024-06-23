@@ -1,0 +1,34 @@
+/* scroll */
+#scroll-me-all-night-long {
+    overflow: auto;
+    overflow-x: hidden;
+}
+.display-block {
+    display: block;
+}
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+::-webkit-scrollbar-track:horizontal {
+    border-bottom-width: 1px;
+}
+::-webkit-scrollbar-track:vertical {
+    border-right-width: 1px;
+}
+::-webkit-scrollbar-thumb {
+    border: 0 solid #3e4c34;
+    border-radius: 30px;
+}
+::-webkit-scrollbar-thumb:horizontal {
+    border-bottom-width: 5px;
+}
+::-webkit-scrollbar-thumb:horizontal:hover {
+    border-bottom-width: 5px;
+}
+::-webkit-scrollbar-thumb:vertical {
+    border-right-width: 5px;
+}
+::-webkit-scrollbar-thumb:vertical:hover {
+    border-right-width: 5px;
+}
